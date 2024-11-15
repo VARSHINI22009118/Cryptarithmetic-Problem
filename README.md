@@ -1,10 +1,13 @@
 <h1>ExpNo 8 : Solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python</h1> 
+<BR>
 <h3>Name:     VARSHINI S A          </h3>
 <h3>Register Number: 212222100059       </h3>
+<BR>
 <H3>Aim:</H3>
 <p>
     To solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python
 </p>
+<BR>
 <h3>Procedure:</h3>
 Input and Output
 <br>Input:
@@ -22,7 +25,8 @@ For this case it is like this.
               B A L L                         2 4 5 5
              ---------                       ---------
             G A M E S                       0 4 9 1 6
-Algorithm
+
+## Algorithm:
 For this problem, we will define a node, which contains a letter and its corresponding values.<br>
 
 isValid(nodeList, count, word1, word2, word3)<br>
@@ -71,6 +75,8 @@ Begin<br>
       return true<br>
    return false<br>
 End<br>
+
+<BR>
 ## PROGRAM:
 ```
 from itertools import permutations
@@ -110,5 +116,7 @@ else:
 ![Screenshot 2024-09-26 093040](https://github.com/user-attachments/assets/37028d02-787a-4d0f-9037-a7cb2c205dcb)
 
 <hr>
+
+<BR>
 <h2>Result:</h2>
 <p> Thus a Cryptarithmetic Problem was solved using Python successfully</p>
